@@ -1,0 +1,31 @@
+body {
+  font-family: 'Indie Flower', cursive;
+}
+
+#top {
+  background-image: url("../img/awesome.png");
+  background-repeat: round;
+  height: 200px;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("Cartoon Blocks Christmas.woff");
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+p {
+  font-size: 25px;
+  font color: #cc0000;
+}
+
+#info {
+  background-image: url("../img/science.svg");
+  background-repeat: no-repeat;
+}
